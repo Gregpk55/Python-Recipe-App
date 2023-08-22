@@ -14,14 +14,14 @@ Navigate to your project directory or a directory where you want to set up the v
 
 Create python script using you favorite IDE
 
-<img src="1.1/iPythonAdd.png" width="200px" height="300px" />
+<img src="1.1/PythonAdd.png" width="400px" height="300px" />
 
 ## Step 4: Set Up IPython Shell
 
 If you haven't installed IPython in your virtual environment, do so using:
 pip install ipython
 
-<img src="1.1/ipython.png" width="200px" height="300px" />
+<img src="1.1/ipython.png" width="400px" height="300px" />
 
 ## Step 5: Export a Requirements File
 
