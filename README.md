@@ -13,8 +13,10 @@ Navigate to your project directory or a directory where you want to set up the v
 ## Step 3: Create a Python Script
 
 Create python script using you favorite IDE
+[View add.py](1.1/add.py)
 
-<img src="1.1/PythonAdd.png" width="400px" height="300px" />
+
+<img src="1.1/PythonAdd.png" width="300px" height="200px" />
 
 ## Step 4: Set Up IPython Shell
 
