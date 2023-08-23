@@ -1,0 +1,16 @@
+>>> str1 = 'hello, '
+>>> str2 = 'how are you?'
+>>> str3 = str1 + str2
+
+str3 = 'hello, how are you?'
+
+
+str3[3:] = 'lo, how are you?'
+
+str3[-3:] = 'ou?'
+
+str3[2:9:3] ='lo '
+
+str3[::-2] ='el, o r o'
+
+str3[2:8] = 'llo, h'
