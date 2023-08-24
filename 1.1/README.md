@@ -6,12 +6,12 @@
 2. Verify the installation by opening a terminal or command prompt and running the following command:
 python --version
 
-<img src="1.1/Step1.png" width="200px"  />
+<img src="Step1.png" width="200px"  />
 
 ## Step 2: Set Up a Virtual Environment
 
 Navigate to your project directory or a directory where you want to set up the virtual environment.
-<img src="1.1/Step3.png" width="200px"  />
+<img src="Step3.png" width="200px"  />
 
 ## Step 3: Create a Python Script
 
@@ -19,14 +19,14 @@ Create python script using your favorite IDE.
 Example: [View add.py](1.1/add.py)
 
 
-<img src="1.1/Step3.png" width="200px"  />
+<img src="Step3.png" width="200px"  />
 
 ## Step 4: Set Up IPython Shell
 
 If you haven't installed IPython in your virtual environment, do so using:Step1
 pip install ipython
 
-<img src="1.1/Step4.png" width="400px" height="300px" />
+<img src="Step4.png" width="400px" height="300px" />
 
 ## Step 5: Export a Requirements File
 
@@ -35,5 +35,5 @@ pip freeze > requirements.txt
 
 This `requirements.txt` file can later be used to replicate the environment.
 
-<img src="1.1/Step5.png" width="300px" height="200px" />
+<img src="Step5.png" width="300px" height="200px" />
 
