@@ -1,0 +1,33 @@
+Exercise 1.1: Getting Started with Python 
+Learning Goals
+
+●	Summarize the uses and benefits of Python for web development
+●	Prepare your developer environment for programming with Python
+
+Reflection Questions
+
+1.	In your own words, what is the difference between frontend and backend web development? If you were hired to work on backend programming for a web application, what kinds of operations would you be working on?
+
+A)	The front end is the visual or client side of a web application of some kind while the backend is the 
+sever side working with data flows, APIs and databases. Being hired as a back-end developer, I would be working on 
+creating or maintaining databases, server configurations or just general backend logic for apps.
+
+2.	Imagine you’re working as a full-stack developer in the near future. Your team is asking for your advice 
+on whether to use JavaScript or Python for a project, and you think Python would be the better choice. 
+How would you explain the similarities and differences between the two languages to your team? Drawing from what 
+you learned in this Exercise, what reasons would you give to convince your team that Python is the better option? 
+(Hint: refer to the Exercise section “The Benefits of Developing with Python”)
+
+A)	Both JavaScript and Python are high-level scripting languages with dynamic typing. What makes Python a better 
+choice is its number of open-source and proprietary packages along with one of the strongest community support groups. 
+But the best part of python is its readability.
+
+3.	Now that you’ve had an introduction to Python, write down 3 goals you have for yourself and you’re learning 
+during this Achievement. You can reflect on the following questions if it helps you. What do you want to learn about 
+Python? What do you want to get out of this Achievement? Where or what do you see yourself working on after you 
+complete this Achievement?
+
+A)	1. Be able to problem solve basic problems without stack overflow
+2. Be able to read and understand basic or complex python functions
+3. I want to gain the basics skills of python so I can continue to build on them after this achievement. 
+
