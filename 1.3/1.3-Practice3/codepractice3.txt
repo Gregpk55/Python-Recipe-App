@@ -1,0 +1,14 @@
+#for loop
+
+for num in [10, 20, 30, 40, 50]:
+    print(num)
+print("And we're done!")
+
+
+#while loop
+
+num = 10
+while num <= 50:
+    print(num)
+    num += 10
+print("And we're done!")
