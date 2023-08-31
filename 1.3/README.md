@@ -14,7 +14,7 @@ For each recipe:
 
 - Provide the recipe name
 - List the ingredients, seperated by commas
-- Specify the cooking time in minuts
+- Specify the cooking time in minutes
 
 <img src="Step2.png" width="200px" />
 
