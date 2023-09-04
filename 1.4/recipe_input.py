@@ -1,11 +1,26 @@
 import pickle
 
 def take_recipe():
-    name = input("Enter the recipe name: ")
-    cooking_time = int(input("Enter the cooking time in minutes: "))
-    ingredients = input("Enter the ingredients, separated by commas: ").split(',')
+    name = input("Enter the recipe name: ").strip()
+    if not name:
+        print("Recipe name cannot be empty.")
+        return None
+    try:
+        cooking_time = int(input("Enter the cooking time in minutes: ").strip())
+        if cooking_time < 0:
+            print("Invalid cooking time.")
+            return None
+    except ValueError:
+        print("Invalid cooking time.")
+        return None
+
+    ingredients_input = input("Enter the ingredients, separated by commas. Use quotes for ingredients with spaces: ")
+    ingredients = [i.strip().lower() for i in ingredients_input.split(',')]
+    if not all(ingredients):
+        print("Invalid ingredients.")
+        return None
+
     difficulty = calc_difficulty(cooking_time, len(ingredients))
-    
     return {'name': name, 'time': cooking_time, 'ingredients': ingredients, 'difficulty': difficulty}
 
 def calc_difficulty(time, num_ingredients):
@@ -19,7 +34,7 @@ def calc_difficulty(time, num_ingredients):
             return "Intermediate"
         else:
             return "Hard"
-        
+
 filename = input("Enter the filename to store recipes: ")
 
 try:
@@ -31,9 +46,6 @@ except Exception as e:
     print(f"An error occurred: {e}")
     data = {'recipes_list': [], 'all_ingredients': []}
 
-recipes_list = data.get('recipes_list', [])
-all_ingredients = data.get('all_ingredients', [])
-
 try:
     num_recipes = int(input("How many recipes would you like to enter? "))
 except ValueError:
@@ -43,14 +55,10 @@ except ValueError:
 for _ in range(num_recipes):
     recipe = take_recipe()
     if recipe is not None:
-        recipes_list.append(recipe)
+        data['recipes_list'].append(recipe)
         for ingredient in recipe['ingredients']:
-            if ingredient not in all_ingredients:
-                all_ingredients.append(ingredient)
-                print('-' * 20) 
-
-data['recipes_list'] = recipes_list
-data['all_ingredients'] = all_ingredients
+            if ingredient not in data['all_ingredients']:
+                data['all_ingredients'].append(ingredient)
 
 try:
     with open(filename, 'wb') as f:

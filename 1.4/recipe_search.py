@@ -1,6 +1,5 @@
 import pickle
 
-
 def display_recipe(recipe):
     print(f"Recipe Name: {recipe['name']}")
     print(f"Cooking Time: {recipe['time']} minutes")
@@ -8,14 +7,11 @@ def display_recipe(recipe):
     print(f"Difficulty: {recipe['difficulty']}")
     print()
 
-
 def search_ingredient(data):
-    all_ingredients = [i.strip().lower() for i in data.get('all_ingredients', [])]
-    recipes_list = [ {
-        key: value.strip().lower() if isinstance(value, str) else value 
-        for key, value in recipe.items() 
-    } for recipe in data.get('recipes_list', [])]
-
+    all_ingredients = data.get('all_ingredients', [])
+    if not all_ingredients:
+        print("No ingredients found.")
+        return
     for i, ingredient in enumerate(all_ingredients):
         print(f"{i+1}. {ingredient}")
 
@@ -25,17 +21,17 @@ def search_ingredient(data):
             return
         ingredient_searched = all_ingredients[choice - 1]
     except (ValueError, IndexError, KeyboardInterrupt):
-        print("Incorrect input.")
+        print("Incorrect input. Exiting...")
         return
 
-    found_recipes = [recipe for recipe in recipes_list if ingredient_searched in [i.strip().lower() for i in recipe.get('ingredients', [])]]
+    found_recipes = [recipe for recipe in data['recipes_list'] if ingredient_searched in recipe.get('ingredients', [])]
 
     print(f"Found {len(found_recipes)} recipe(s) with {ingredient_searched}:")
     for recipe in found_recipes:
         display_recipe(recipe)
 
 try:
-    filename = input("Enter the filename where the recipes are stored: ")
+    filename = input("Enter the filename where the recipes are stored: ") 
     with open(filename, 'rb') as f:
         data = pickle.load(f)
 except FileNotFoundError:

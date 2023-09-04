@@ -1,0 +1,48 @@
+Exercise 1.5: Object-Oriented Programming in Python
+Learning Goals
+
+●	Apply object-oriented programming concepts to your Recipe app
+
+Reflection Questions
+
+1.	In your own words, what is object-oriented programming? What are the benefits of OOP?
+
+A)	Object Oriented Programming is based off of “objects” which can contain data/ code. OOP bundles code a data with 
+classes enabling polymorphism, operator overloading, inheritance and letting code be more reusable.
+
+2.	What are objects and classes in Python? Come up with a real-world example to illustrate how objects and classes
+ work.
+A)	A class is a format for creating objects while objects themselves are instances of classes which can inherit 
+previous methods from other classes.
+
+Class Automobile: #class
+	def __init__ (self, make, model, year):
+		self.make = make
+		self.model = model
+		self.year = year
+
+	Car = Automobile (“Toyota, Tacoma, 1989”) #object
+
+3.	In your own words, write brief explanations of the following OOP concepts; 100 to 200 words per method is fine. 
+
+A)	Inheritance in object-oriented programing serves as a mechanism for a class to borrow pre-defined attributes and 
+methods from parent classes. The advantage of this is it allows to re-use code and sets up a consistent structure for
+ sub classes. So, inheritance allows for the modification of a parent class without altering the original.
+Example: A basic Animal class that has the “make sound ()” method. A specialized subclass like “frog” “cow” can inherit
+ “make sound ()” from the parent class to print(woof) or (ribbit). Since we have made a parent class we could add as many
+  animals to a sub class while keeping the “make sound ()” method.
+
+B)	Polymorphism in object-oriented programing enables a unified interface for different data types and classes which,
+ enables a simplification of code structure. This, in turn removes repetitive type checking and just simplifying code
+  allowing for easier code to scale and read. When code is written with polymorphism in mind a single code function can
+   be used for many objects and subclasses as long as they are written with the proper structure of course. With this
+    adding new features and making updates to already existing feature becomes way easier and in general just a great
+     way to write code especially python.
+
+C)	 Operator Overloading in object oriented programing allows for the customization of how special operators, such as
+ ‘+’, ’-’, ’==’, ‘<’, and ‘>’, behave for user defined classes. By defining special methods like “__add__ ()” for
+  addition and “__sub__ ()” for subtraction, developers can determine exactly how these operators function when
+   applied to instances of their custom classes. For instance, if a custom class defines the “__add__ ()” method, it
+    substitutes the “+” operator, allowing you to add two objects together “object1 + object2 = output”. Implementing
+     operator overloading enhances both readability and maintainability, as it aligns similarly to custom object behavior
+      with pythons built in types.
