@@ -1,0 +1,17 @@
+cursor.execute("""
+INSERT INTO stock
+(item_name, item_id, manufacturer_name, price, quantity)
+VALUES ('Paper', 4, 'Georgia-Pacific Corp.', 35, 40)
+""")
+
+cursor.execute("""
+INSERT INTO stock
+(item_name, item_id, manufacturer_name, price, quantity)
+VALUES ('Butter', 5, 'Organic Valley', 18, 37)
+""")
+
+cursor.execute("""
+INSERT INTO stock
+(item_name, item_id, manufacturer_name, price, quantity)
+VALUES ('Pencils', 6, 'Staedtler', 17, 55)
+""")
