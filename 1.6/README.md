@@ -27,7 +27,7 @@ Implement a main menu using a `while` loop in a function called `main_menu()`:
 - Calculate the difficulty using `calculate_difficulty()`.
 - Insert into `Recipes` table.
 
-<img src="Create.png" width="200px" />
+<img src="1.6_img/Create.png" width="200px" />
 
 ## Step 4: Searching for a Recipe
 
@@ -35,7 +35,7 @@ Implement a main menu using a `while` loop in a function called `main_menu()`:
 - Allow the user to select an ingredient.
 - Search and display the recipes containing the selected ingredient.
 
-<img src="Search.png" width="200px" />
+<img src="1.6_img/Search.png" width="200px" />
 
 ## Step 5: Updating a Recipe
 
@@ -43,9 +43,9 @@ Implement a main menu using a `while` loop in a function called `main_menu()`:
 - User selects a recipe by its `id`.
 - Update the selected column and recalculate difficulty if needed.
 
-<img src="Update1.png" width="200px" />
+<img src="1.6_img/Update1.png" width="200px" />
 
-<img src="Update2.png" width="200px" />
+<img src="1.6_img/Update2.png" width="200px" />
 
 ## Step 6: Deleting a Recipe
 
@@ -54,4 +54,4 @@ Implement a main menu using a `while` loop in a function called `main_menu()`:
 - Delete the selected recipe from the database.
 
 
-<img src="Delete.png" width="200px" />
+<img src="1.6_img/Delete.png" width="200px" />
