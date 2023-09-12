@@ -26,7 +26,7 @@
 - **Function 2**: `view_all_recipes()`
   - **Actions**: Retrieve all recipes and display them.
 
-  <img src="1.7_img/ViewAll.png" width="200px" />
+  <img src="1.7_img/View.png" width="200px" />
   
 - **Function 3**: `search_by_ingredients()`
   - **Actions**: Search for recipes based on their ingredients.
