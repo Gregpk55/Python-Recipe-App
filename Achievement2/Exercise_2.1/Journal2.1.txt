@@ -1,0 +1,64 @@
+Exercise 2.1: Getting Started with Django
+
+Learning Goals
+
+●	Explain MVT architecture and compare it with MVC
+●	Summarize Django’s benefits and drawbacks 
+●	Install and get started with Django
+
+Reflection Questions
+
+1.	Suppose you’re a web developer in a company and need to decide if you’ll use vanilla (plain) Python for a project, 
+or a framework like Django instead. What are the advantages and drawbacks of each?
+A) Python:
+
+Pros:
+
+Control: Control every line of code and manipulate the database in whatever way you see fit.
+Performance: Without the added functionalities of a framework, the application might be lighter and therefore quicker
+ than when using a framework.
+
+Cons:
+
+Development Speed: Building the application could be slower since you'll have to create and manipulate everything manually.
+Complexity: Creating features such as authentication or the layout of the database can be time-consuming and increase
+ the likelihood of errors or bugs.
+
+B) Django:
+
+Pros:
+
+Rapid Development: Quick development is possible since many features are already built into the framework. 
+Given these built-in features, it allows for easy scalability and is potentially easier to maintain due to the extensive 
+support and documentation.
+
+Cons:
+
+Learning Curve: Learning Django at first could slow down the development process.
+Bulkiness: Being a major framework, it could introduce overhead and therefore possibly slow down the application.	 
+
+
+2.	In your own words, what is the most significant advantage of Model View Template (MVT) architecture over Model View 
+Controller (MVC) architecture?
+
+A)	The most significant advantage of the Model View Template (MVT) architecture, especially in the context of Django, is 
+its automation and simplicity. While in the Model View Controller (MVC) pattern, developers often have to manually handle 
+data fetching, logic, and presentation, the MVT structure in Django streamlines these processes. This means that developers 
+don't have to write extensive code to fetch data from databases or map it to URLs. Instead, they just specify what data they 
+want to display, and the framework handles the rest. This not only reduces the amount of code written but also speeds up
+ development, making it especially beneficial for faster application development.
+
+3.	Now that you’ve had an introduction to the Django framework, write down three goals you have for yourself 
+and your learning process during this Achievement. You can reflect on the following questions if it helps:
+●	What do you want to learn about Django? 
+●	What do you want to get out of this Achievement? 
+●	Where or what do you see yourself working on after you complete this Achievement?
+
+A)	I want to increase the knowledge I already have of Django from the full stack immersion course and gain a better 
+understanding of MVT architecture. 
+
+B)	Learn more about apply Django into more real life like scenarios along with providing and app that shows this gain
+ of knowledge and skill.
+
+C)	After this achievement I plan on taking some time to sharpen my coding skills to hopefully get a job where
+ I can learn and grow as a junior developer.

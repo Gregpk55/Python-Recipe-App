@@ -1,0 +1,51 @@
+Django is popular among web developers because of its "batteries-included" approach, meaning it comes with
+ a lot of built-in tools and functionalities. This allows developers to quickly set up websites and apps without 
+ needing many extras. Its built-in features for user management and its ORM (Object-Relational Mapping) system simplify
+the process of working with database.
+
+
+
+Five companies that use Django and how are:
+
+1.	Instagram - Instagram uses Django to foster web applications. It is the best development framework you can learn.
+ Django has simplified it for Instagram engineers to amass a lot of web applications, site pages, and web organizations.
+
+2.	Spotify - The Spotify-API Django app allows users to login to their Spotify account and view their top tracks over 
+a specified time range. It also allows users to create a new playlist and add tracks to it using the Spotify API.
+
+3.	Mozilla - The company behind the Firefox browser. They use Django for their developer network and a variety of other 
+web services.
+
+4.	Pinterest - Pinterest works as a social network that allows users to “pin” (bookmark) their preferences and interests 
+while surfing the web. Also, the Django framework helps Pinterest users subscribe to other users and share their boards.
+
+5.	National Geographic - National Geographic is a popular monthly magazine published by the National Geographic Society. 
+Its online version uses a Django-powered content management system. With it, developers can easily 
+manage the website's content, from modules and advertisements to individual images.
+
+
+Would Django be used for the following scenarios:
+
+1.	Web application with multiple users:
+
+Yes, Django has built in authentication system which makes it a great for this application.
+
+2.	Fast deployment with continuous changes:
+
+Yes, Django is designed for scalability with its ORM and DRY principles it is ideal for building rapid growth apps.
+
+3.	Basic application without database access or file operations:
+
+No, Django is not necessary for smaller/ lack of database access applications.
+
+4.	Building an application form scratch without granular control:
+
+Yes, if the creator does not want detailed control and prefers to utilize built-in tools and functions, Django is a
+ great choice because it offers many ready-to-use components. However, if the creator desires full control and wants to 
+ construct every feature manually, a micro-framework might be a better choice.
+
+5.	Starting a big project with potential roadblocks:
+
+Yes, Django has a lot of support with all of its documentation and third-party packages most problems should have solutions
+
+
