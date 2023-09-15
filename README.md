@@ -1,23 +1,34 @@
-# Python-Recipe-App
+# Recipe Applications Collection
 
-## Objective
-Build a command line version of a Recipe app which serves as the precursor to its web app counterpart in Achievement 2.
+This repository contains two iterations of the Recipe App: 
+1. A command-line version built purely with Python.
+2. A web-based version developed using the Django web framework.
 
-## Context
-Building a website with the Django web framework is predominantly in Python, leveraging Python’s object-oriented features. It's crucial to understand the nuances of the language, especially as updates to Django might require code changes. An understanding of Python simplifies the task of debugging errors and exceptions. This project underscores Python fundamentals, data structures, and object-oriented programming. An integral aspect is learning how to interact with databases using Python, which will be of immense use while working with the Django framework. The project also aims to inculcate standard programming practices ensuring the code is concise, readable, and resilient during execution.
+---
 
-## User Goals
-- **Recipe Management**: Users should have the ability to create and modify recipes. Each recipe should contain details about ingredients, cooking time, and more.
-  
-- **Search**: Users should be able to search for recipes based on their ingredients.
+## 1. Python-Recipe-App (Command Line Version)
 
-- **Recipe Details**: Upon prompting, users should be able to view detailed information about a recipe, such as its ingredients, cooking time, and difficulty.
+### Objective
+Craft a command line Recipe app emphasizing Python fundamentals, data structures, and basic database interactions.
 
-## Key Features
-- **Database Integration**: The ability to create and manage the user’s recipes on a locally hosted MySQL database.
-  
-- **Ingredient-based Search**: Provides an option to search for recipes containing specific ingredients set by the user.
-  
-- **Automated Difficulty Rating**: The application will automatically rate each recipe by their difficulty level.
+### Key Features
+- Recipe management: Create, view, and modify recipes.
+- Ingredient-based search: Find recipes by specific ingredients.
+- Database Integration: Store recipes in a locally hosted MySQL database.
 
-- **Detailed Recipe View**: On user prompt, more details on each recipe will be displayed, showcasing the ingredients, cooking time, and difficulty of the recipe.
+---
+
+## 2. Django-Recipe-Web-App (Web Version)
+
+### Objective
+Transform the command-line app into a full-featured web application using Django, adding multi-user capabilities and an enhanced user interface.
+
+### Key Features
+- Multi-user support with an admin panel.
+- Dynamic front-end using HTML and CSS.
+- Deployment on Heroku with a Postgres backend.
+- Statistical dashboards for data insights.
+
+---
+
+**For more detailed information, refer to each project's dedicated README.**
