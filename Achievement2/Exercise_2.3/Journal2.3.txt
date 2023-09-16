@@ -1,0 +1,28 @@
+Exercise 2.3: Django Models
+
+Learning Goals
+
+●	Discuss Django models, the “M” part of Django’s MVT architecture
+●	Create apps and models representing different parts of your web application 
+●	Write and run automated tests
+
+Reflection Questions
+
+1.	Do some research on Django models. In your own words, write down how Django models work and what their benefits are.
+
+A)	Django models define the structure of data for web applications guaranteeing consistency. This leads to a few benefits 
+    which include: 
+
+•	DRY once a model is defined the admin site creates an interface.
+•	Define data types which leads to consistency in code base.
+•	Django abstracts the database to enable easy application to other databases. 
+•	With models it creates an easy way to interact with the database creating an enjoyable experience for developers.
+
+2.	In your own words, explain why it is crucial to write test cases from the beginning of a project. You can take an example 
+project to explain your answer.
+
+A)	Testing is crucial throughout a whole project but the most important at the beginning. Testing from the start of a project
+ ensures that the foundation of the project works as intended, this will prevent bugs and headaches further down the
+  progression of a web application. Testing also ensures that any refactoring or addition of code is not app breaking which
+   ensure easy scalability.
+
