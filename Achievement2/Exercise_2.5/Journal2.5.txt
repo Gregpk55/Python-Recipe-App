@@ -1,0 +1,33 @@
+Exercise 2.5: Django MVT Revisited
+
+Learning Goals
+
+●	Add images to the model and display them on the frontend of your application
+●	Create complex views with access to the model
+●	Display records with views and templates
+
+
+Reflection Questions
+
+1.	In your own words, explain Django static files and how Django handles them.
+
+A)	Django static files include CSS, JS and images which are stored in folder separate from the database
+ called “static” which includes having a static tag.
+
+2.	Look up the following two Django packages on Django’s official documentation and/or other trusted sources. 
+Write a brief description of each.
+
+
+Package	Description
+ListView	Displays a list of objects using Django’s built in template
+DetailView	Displays details of a single object with Django’s built in template
+
+
+
+3.	You’re now more than halfway through Achievement 2! Take a moment to reflect on your learning in the course
+ so far. How is it going? What’s something you’re proud of so far? Is there something you’re struggling with? What do you need more practice with? You can use these notes to guide your next mentor call. 
+
+A)	I have been learning a lot, staying focused on being organized has enabled me to retain more information 
+and apply it my current project. I am proud that python commands are almost feeling second nature in my terminal.
+ I would like more practice just writing code and applying new ideas.
+
