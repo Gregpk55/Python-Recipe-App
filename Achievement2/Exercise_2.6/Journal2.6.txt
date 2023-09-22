@@ -1,0 +1,70 @@
+Exercise 2.6: User Authentication in Django
+
+Learning Goals
+
+●	Create authentication for your web application
+●	Use GET and POST methods 
+●	Password protect your web application’s views
+
+Reflection Questions
+
+1.	In your own words, write down the importance of incorporating authentication into an 
+application. You can take an example application to explain your answer. 
+
+A)	Authentication is a vital part of almost any applications. An aspect of authentication 
+could be security. For example, if someone had access to your banking app, they could steal money. Another part of authorization is it can play a role in the personalization of an app.
+
+2.	In your own words, explain the steps you should take to create a login for your Django 
+web application.
+ 
+A)
+
+Step 1: Setup and Config
+
+    Update settings.py to include needed apps and create the auth backend, and set the login 
+    redirect URL.
+
+Step 2: Create URL and View
+
+Create login/logout paths in the urls.py.
+
+
+Step 3: Apply @login_required or LoginRequiredMixin 
+
+    Add decorators or mixins to the views that require protection.
+    Create simple login.html with form fields for username and password.
+
+Step 4: Test Authentication
+
+Create user through admin to check that the login/logout and the views protection works.
+
+3.	Look up the following three Django functions on Django’s official documentation and/or 
+other trusted sources and write a brief description of each.
+
+
+Function	           Description
+
+authenticate()  =	 Validates username, password and returns User object if correct
+                    Example:
+                                from django.contrib.auth import authenticate
+                                user = authenticate(username='username', password='password')
+
+
+
+redirect()	    =    Takes a URL or view name and redirects user there
+                    Example:
+                                from django.shortcuts import redirect
+                                response = redirect('/URL/')
+                                # or
+                                response = redirect('VIEW')
+
+
+include()	    =    Enables modular URL patterns by including other URL confiurations
+                    Example:
+                                from django.urls import include, path
+                                urlpatterns = [
+                                    path('site/', include('site.urls')),
+                                ]
+
+
+                                                                                Greg        

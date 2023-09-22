@@ -26,3 +26,6 @@ A)	Testing is crucial throughout a whole project but the most important at the b
   progression of a web application. Testing also ensures that any refactoring or addition of code is not app breaking which
    ensure easy scalability.
 
+
+
+                                                                                Greg   

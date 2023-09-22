@@ -46,3 +46,7 @@ Step 7: Create a Superuser
 A)	The Django Admin site has built in management system tools which allow easy creation of CRUD operations, ability to
  manage user accounts and permissions along with debugging tools. The Django admins site helps developers fast track some of 
  the more tedious parts of web application creation.
+
+
+
+                                                                                Greg   
