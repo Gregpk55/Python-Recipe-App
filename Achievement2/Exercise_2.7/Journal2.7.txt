@@ -1,0 +1,40 @@
+Exercise 2.7: Data Analysis and Visualization in Django
+
+Learning Goals
+
+●	Work on elements of two-way communication like creating forms and buttons
+●	Implement search and visualization (reports/charts) features
+●	Use QuerySet API, DataFrames (with pandas), and plotting libraries (with matplotlib)
+
+Reflection Questions
+
+1.	Consider your favorite website/application (you can also take CareerFoundry). Think about the various data that your favorite
+ website/application collects. Write down how analyzing the collected data could help the website/application. 
+A)	
+    Medium
+1)	Behavior: Article Views and who user follows
+2)	Profile: Data: User preference, history topic selection
+3)	Content: Comments, responses and claps
+
+Data collections help personalize the app to the user through history (cookies) and what articles are most often read. This will make the 
+user stay on the app longer and possibly engage in Mediums community.
+
+2.	Read the Django official documentation on QuerySet API. Note down the different ways in which you can evaluate a QuerySet.
+A)
+1) Iteration: executes database QuerySet first time you iterate over it
+2) Slicing: QuerySet being sliced using python syntax
+3) Pickling/Caching: QuerySet being pickled or cached
+4) repr() : Can view results of QuerySet using Api
+5) len() : Returns length of results  
+6) list() : Forces evaluation of QuerySet
+7) bool() : Applies boolean context to QuerySet (True or False)
+
+
+
+3.	In the Exercise, you converted your QuerySet to DataFrame. Now do some research on the advantages and disadvantages of QuerySet and 
+DataFrame, and explain the ways in which DataFrame is better for data processing.
+
+A)	Data Frames in Python are versatile tools that simplify advanced data analysis and manipulation. They work well will various libraries 
+for efficient visualization applications. Their user-friendly structure allows quick inspections and flexible handling of data.
+
+

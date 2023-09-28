@@ -1,0 +1,12 @@
+
+The user starts on the welcome page and logs in to view a list of recipes. 
+They can select a recipe to view its details or use the search function to find 
+specific recipes by name or ingredients. Search results, clickable for
+ more details, are displayed in a table with an accompanying chart, visualizing 
+the recipes by difficulty level or cooking time. By clicking a recipe name, 
+the user accesses its detailed information.
+
+To view charts:
+
+Data-Analysis.md
+
