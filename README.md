@@ -32,3 +32,7 @@ Transform the command-line app into a full-featured web application using Django
 ---
 
 **For more detailed information, refer to each project's dedicated README.**
+
+View Live App:
+
+<a href="https://guarded-savannah-77960-cf4b59285d74.herokuapp.com/" target="_blank">Recipe App</a>

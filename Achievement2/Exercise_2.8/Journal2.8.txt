@@ -1,0 +1,36 @@
+Exercise 2.8: Deploying a Django Project
+Learning Goals
+
+●	Enhance user experience and look and feel of your web application using CSS and JS
+●	Deploy your Django web application on a web server 
+●	Curate project deliverables for your portfolio
+
+Reflection Questions
+
+1.	Explain how you can use CSS and JavaScript in your Django web application.
+A)	CSS was used for all styling of the app.
+JavaScript was used for user recipe creation along with page transitions creating a better user experience.
+
+2.	In your own words, explain the steps you’d need to take to deploy your Django web application. 
+A)	Step 1: configuring files to be able to handle deployment/ creating req.txt
+Step 2: running tests to make sure all functionality works
+Step 3: collecting static files along with making migrations
+Step 4: creating Heroku app and deploying
+Step 5: go through all app functions to make sure the deployment is correct
+
+
+
+
+
+
+4.	You’ve now finished Achievement 2 and, with it, the whole course! Take a moment to reflect on your learning:
+a.	What went well during this Achievement? 
+b.	What’s something you’re proud of? 
+c.	What was the most challenging aspect of this Achievement? 
+d.	Did this Achievement meet your expectations? Did it give you the confidence to start working with your new Django skills?
+
+A)	For the most part the whole achievement went well and I learned a lot more skills, along with new strategies to 
+problem solve more complex problems.
+B)	I think my app looks good and is intuitive to use.
+C)	Properly collecting static files so that my database images would appear in deployed app.
+D)	Absolutely, I think Django will be my go to database for future applications .
